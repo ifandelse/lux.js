@@ -38,6 +38,7 @@
     }
   ],
   "main": "./lib/lux.js",
+  "types": "./index.d.ts",
   "keywords": [
     "react",
     "ReactJS",
@@ -63,6 +64,7 @@
     "machina": "^4.0.2"
   },
   "devDependencies": {
+    "@types/react": "^19.2.14",
     "babel": "6.x",
     "babel-core": "^6.14.0",
     "babel-eslint": "^7.0.0",
@@ -104,6 +106,7 @@
   ],
   "files": [
     "lib",
+    "index.d.ts",
     "LICENSE"
   ],
   "nyc": {
